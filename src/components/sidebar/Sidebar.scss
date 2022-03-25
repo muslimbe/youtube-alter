@@ -1,0 +1,116 @@
+@import "../../assets/scss/colors.scss";
+
+.container-sidebar{
+  display: flex;
+  flex-direction: column;
+  width: 223px;
+  padding-top: 50px;
+  background-color: $bg-color;
+
+}
+
+.sidebar__main-list{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.sidebar__item{
+  display: flex;
+  margin-bottom: 29px;
+}
+
+.sidebar__link{
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: rgba(250, 250, 250, 0.5);
+}
+
+// second list
+
+.home{
+  color: $red;
+}
+
+
+.sidebar__second-list{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  margin-top: 31px;
+}
+
+.sidebar__text{
+  margin: 0;
+  margin-left: 17px;
+}
+
+.icon-wrapper{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 22px;
+  height: 100%;
+}
+
+.btn-show-more{
+  position: relative;
+  display: flex;
+  background: transparent;
+  color: rgba(250, 250, 250, 0.5);
+  border: none;
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+}
+
+// subscriptions
+
+.sidebar__subs-title{
+  font-size: 18px;
+  color: #fff;
+  font-weight: 700;
+  margin: 0;
+  margin-top: 29px;
+  margin-bottom: 30px;
+}
+
+.sidebar__channels-list{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+
+.sidebar__channel{
+  margin-bottom: 23px;
+
+    &:last-child{
+      margin-bottom: 104px;
+    }
+}
+
+.channles-link{
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: rgba(250, 250, 250, 0.5);
+}
+
+.side-channel-img{
+  width: 26px;  
+  height: 26px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.channel-name{
+  margin: 0;
+  font-weight: 400;
+}
+
+.sidebar__setting{
+  margin: 0;
+  margin-left: 12px;
+}
